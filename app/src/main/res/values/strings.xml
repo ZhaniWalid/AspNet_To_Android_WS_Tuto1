@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AspNet_To_Android_WS_Tuto1</string>
+    <string name="action_settings">Settings</string>
+    <string name="TextViewIdWS">ID #1 Web Service Asp.Net :</string>
+    <string name="TextViewNameWS">Nom #1 Web Service Asp.Net :</string>
+    <string name="InputIdWS">Input Id WS</string>
+    <string name="BtnNameWS">Get Web Service Name</string>
+</resources>
