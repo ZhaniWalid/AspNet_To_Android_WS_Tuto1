@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
      public  String WSDL_TARGET_NAMESPACE = "http://AspNet_To_Android_WebService_Tuto.org/";
      public  String OPERATION_NAME = "FindUserNameById";
      //public  String OPERATION_NAME_2 = "ReturnAllNames";
-     public  String SOAP_ADDRESS_Local = "http://10.0.2.2:82/WebServices_AspNet_To_Android_Tuto/MyAspNetAndroidWS.asmx";//Local Soap Web Service(.asmx : dotNet) Consumption on Android Emulator
-     //public  String SOAP_ADDRESS_Remote_Smartphone = "http://192.168.1.90:82/WebServices_AspNet_To_Android_Tuto/MyAspNetAndroidWS.asmx";//http://ipv4_adr:portAccessibleFromIISLocal   //Remote Soap Web Service(.asmx : dotNet) Consumption on Real Android Device
+     //public  String SOAP_ADDRESS_Local = "http://10.0.2.2:82/WebServices_AspNet_To_Android_Tuto/MyAspNetAndroidWS.asmx";//Local Soap Web Service(.asmx : dotNet) Consumption on Android Emulator
+     public  String SOAP_ADDRESS_Remote_Smartphone = "http://192.168.1.90:82/WebServices_AspNet_To_Android_Tuto/MyAspNetAndroidWS.asmx";//http://ipv4_adr:portAccessibleFromIISLocal   //Remote Soap Web Service(.asmx : dotNet) Consumption on Real Android Device
      private SoapObject request;
      private HttpTransportSE httpTransport;
      private SoapSerializationEnvelope envelope;

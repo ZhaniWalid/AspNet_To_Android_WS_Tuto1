@@ -4,8 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.aspnet_to_android_ws_tuto1.walid_zhy7.aspnet_to_android_ws_tuto1"
-        minSdkVersion 21
-        targetSdkVersion 26
+
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
